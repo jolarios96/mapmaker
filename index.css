@@ -1,0 +1,72 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:   #202442;
+    
+    padding-left: 10px;
+    margin-bottom: 15px;
+
+    overflow: auto;
+}   
+
+header h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color:   #2d325a;
+    overflow: auto;
+
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+footer h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color:   #25294a;
+}
+
+div {
+    background-color:   #2d325a;
+    }
+
+div p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Map {
+    height: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#Atlas {
+    background-color: rgb(72, 101, 126);
+
+    float: left;
+
+    height: 100%;
+    width: 20%;
+
+}
+
+#Tools {
+    background-color: rgb(0, 0, 0);
+
+    float: right;
+    
+    height: 40%;
+    width: 20%;
+}
