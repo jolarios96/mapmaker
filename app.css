@@ -6,17 +6,21 @@
     margin-right: 10%;
 
     overflow: scroll;
+
+    
 }
 
 #Map {
     position: relative;
-    margin-left: -25px;
-    margin-top: -25px;
+    margin-left: -60px;
+    margin-top: -60px;
 
     top: 50%;
     left: 50%;
-    width: 5000px;
-    height: 5000px;
+    width: 2000px;
+    height: 2000px;
+
+    /* change color to  #2d325a*/
     background-color: blueviolet;
 
 }
@@ -38,36 +42,98 @@
     height: 50px;
     width: 50px;
     background-color: aquamarine;
+
     border-radius: 5%;
+    margin: 10px;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+
+    background-color: transparent;
+    position: relative;
+    top: 35px;
+    left: 35px;
+}
+
+.hidden {
 }
 
 .origin {
     /* position: absolute;
     margin:auto; */
+    margin: 0;
 
-
+    position:absolute;
+    top: 35px;
+    left: 35px;
 }
 
-.btn {
-    height: 50px;
-    width: 50px;
-    background-color: aquamarine;
-    border-radius: 5%;
+.button {
+
 }
 
 .arrow-up {
-    position: relative;
-    background-color: red;
+    background-color: lightskyblue;
+
+    color: white;
+
+    height: 25px;
+    width: 50px;
+
+    line-height: 25px;
+    text-align: center;
+
+    position: absolute;
+    top: 0;
+    left: 35px;
 }
 
 .arrow-down {
-    background-color: blue;
+    background-color: lightskyblue;
+
+    color: white;
+
+    height: 25px;
+    width: 50px;
+
+    line-height: 25px;
+    text-align: center;
+
+    position: absolute;
+    top: 95px;
+    left: 35px;
 }
 
 .arrow-left {
-    background-color: yellow;
+    background-color: lightskyblue;
+    color: white;
+
+    height: 50px;
+    width: 25px;
+
+    line-height: 50px;
+    text-align: center;
+    
+    position: absolute;
+    left: 0;
+    top: 35px;
+    /* float: left; */
 }
 
 .arrow-right {
-    background-color: green;
+    background-color: lightskyblue;
+    color: white;
+
+    height: 50px;
+    width: 25px;
+
+    line-height: 50px;
+    text-align: center;
+   
+    position: absolute;
+    left: 95px;
+    top: 35px;
+    /* float: left; */
 }
