@@ -1,0 +1,73 @@
+#App {
+    background-color:   #2d325a;
+    
+    height: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    overflow: scroll;
+}
+
+#Map {
+    position: relative;
+    margin-left: -25px;
+    margin-top: -25px;
+
+    top: 50%;
+    left: 50%;
+    width: 5000px;
+    height: 5000px;
+    background-color: blueviolet;
+
+}
+
+
+/* .node {
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+    border-radius: 5%;
+}
+
+.origin {
+    position: absolute;
+    margin:auto;
+} */
+
+.node {
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+    border-radius: 5%;
+}
+
+.origin {
+    /* position: absolute;
+    margin:auto; */
+
+
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+    border-radius: 5%;
+}
+
+.arrow-up {
+    position: relative;
+    background-color: red;
+}
+
+.arrow-down {
+    background-color: blue;
+}
+
+.arrow-left {
+    background-color: yellow;
+}
+
+.arrow-right {
+    background-color: green;
+}

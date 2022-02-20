@@ -5,7 +5,7 @@ html {
 
 header {
     background-color:   #202442;
-    
+    color: white;
     padding-left: 10px;
     margin-bottom: 15px;
 
@@ -38,7 +38,6 @@ body {
 }
 
 div {
-    background-color:   #2d325a;
     }
 
 div p {
@@ -46,13 +45,7 @@ div p {
     margin-bottom: 10px;
 }
 
-#Map {
-    height: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#Atlas {
+/* #Atlas {
     background-color: rgb(72, 101, 126);
 
     float: left;
@@ -69,4 +62,4 @@ div p {
     
     height: 40%;
     width: 20%;
-}
+} */
